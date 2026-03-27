@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista Tareas</title>
+    <link rel="stylesheet" href="CSS/Css.css" />
+  </head>
+
+  <body>
+    <main>
+      <header>
+        <h1>📑 Mis Tareas</h1>
+      </header>
+
+      <div class="fondo">
+        <div class="card">
+          <input type="text" id="tarea" placeholder="Nueva tarea..." />
+          <button onclick="AddTareas()" id="AñadirB">Añadir</button>
+        </div>
+        <div class="c">
+          <input type="text" id="tarea" placeholder="Tarea1" />
+          <button onclick="AddTareas()" id="AñadirB">X</button>
+        </div>
+        <div class="c">
+          <input type="text" id="tarea" placeholder="Tarea2" />
+          <button onclick="AddTareas()" id="AñadirB">X</button>
+        </div>
+        <div class="c">
+          <input type="text" id="tarea" placeholder="Ejemplo tarea" />
+          <button onclick="AddTareas()" id="AñadirB">X</button>
+        </div>
+        <div id="listaTareas"></div>
+      </div>
+    </main>
+    <script src="js/javascript.js"></script>
+  </body>
+</html>
